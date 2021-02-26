@@ -1,7 +1,7 @@
 Initial Setup:
 
     docker build -t IMAGE_NAME .
-    docker run --name CONTAINER_NAME -p 2222:22 -d IMAGE_NAME
+    docker run --name CONTAINER_NAME -p 6229:6229 -d IMAGE_NAME
 
 You can also add your pub keys with this, 
 ```
