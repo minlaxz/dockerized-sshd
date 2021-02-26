@@ -22,7 +22,7 @@ COPY ./bin/* /usr/local/bin/
 COPY ./sshd_config /etc/ssh/sshd_config
 COPY ./authorized_keys /root/.ssh/authorized_keys
 
-EXPOSE 22
+EXPOSE 6229
 
 ENTRYPOINT ["ssh-start"]
 CMD ["start-ssh-server"]
