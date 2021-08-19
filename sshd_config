@@ -18,7 +18,7 @@ MaxAuthTries 5
 MaxSessions 5
 
 PubkeyAuthentication yes
-#AuthorizedKeysFile     %h/.ssh/authorized_keys
+#AuthorizedKeysFile %h/.ssh/authorized_keys
 
 #AuthorizedPrincipalsFile none
 
@@ -33,7 +33,7 @@ HostbasedAuthentication no
 IgnoreUserKnownHosts yes
 
 # To disable tunneled clear text passwords, change to no here!
-PasswordAuthentication yes
+PasswordAuthentication no
 PermitEmptyPasswords no
 
 # Change to yes to enable challenge-response passwords (beware issues with
