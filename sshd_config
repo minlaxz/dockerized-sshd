@@ -1,4 +1,4 @@
-Port 6229
+Port 6969
 AddressFamily any
 ListenAddress ::
 ListenAddress 0.0.0.0
